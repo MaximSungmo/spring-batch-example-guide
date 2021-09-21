@@ -1,0 +1,24 @@
+###
+POST http://localhost:8080/run-1
+Content-Type: application/json
+
+{
+  "name": "job",
+  "jobParameters": {
+    "foo": "bar",
+    "baz": "quiz"
+  }
+}
+
+
+###
+POST http://localhost:8080/run-2
+Content-Type: application/json
+
+{
+  "name": "restJob",
+  "jobParameters": {
+    "foo": "bar",
+    "baz": "quiz"
+  }
+}

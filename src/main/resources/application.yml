@@ -1,0 +1,12 @@
+spring:
+  batch:
+    job:
+      #      names: methodInvokingJob,systemCommandJob
+      enabled: false
+    jdbc:
+      initialize-schema: always
+  datasource:
+    url: jdbc:mysql://localhost:3307/batch_example
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: 'batch'
+    password: 'batch1234'
