@@ -2,7 +2,7 @@ version: "3"
 
 services:
   db:
-    image: mariadb:10
+    image: mysql:8.0.22
     ports:
       - 3307:3306
     volumes:
