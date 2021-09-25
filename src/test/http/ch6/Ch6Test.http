@@ -3,7 +3,7 @@ POST http://localhost:8080/run-1
 Content-Type: application/json
 
 {
-  "name": "job",
+  "name": "restJob",
   "jobParameters": {
     "foo": "bar",
     "baz": "quiz"
