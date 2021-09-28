@@ -1,8 +1,8 @@
 spring:
   batch:
     job:
-      #      names: methodInvokingJob,systemCommandJob
-      enabled: false
+      names: fixedWidthJob
+#      enabled: false
     jdbc:
       initialize-schema: always
   datasource:
