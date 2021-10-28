@@ -1,7 +1,7 @@
 spring:
   batch:
     job:
-      names: fixedWidthJob
+      names: ${job.name:NONE}
 #      enabled: false
     jdbc:
       initialize-schema: always
