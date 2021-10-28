@@ -10,3 +10,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: 'batch'
     password: 'batch1234'
+  jpa:
+    properties:
+      hibernate:
+        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext

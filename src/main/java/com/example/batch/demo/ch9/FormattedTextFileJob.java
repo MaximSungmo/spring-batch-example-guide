@@ -78,7 +78,7 @@ public class FormattedTextFileJob {
     @Bean
     public Step formatStep() {
         return this.stepBuilderFactory.get("formatStep")
-                .<Customer, Customer>chunk(10)
+                .<Customer, Customer>chunk(3)
                 .reader(customerFileReader())
                 .writer(customerItemWriter())
                 .build();
