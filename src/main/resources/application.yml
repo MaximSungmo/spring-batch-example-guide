@@ -1,3 +1,4 @@
+
 spring:
   batch:
     job:
@@ -10,6 +11,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: 'batch'
     password: 'batch1234'
+server:
+  port: 8998
   jpa:
     properties:
       hibernate:
